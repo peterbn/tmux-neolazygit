@@ -24,7 +24,7 @@ And press **prefix+I** to install it.
 Clone this repo:
 
 ```bash
-$ git clone https://github.com/AngryMorrocoy/tmux-neolazygit <clone-path>
+$ git clone https://github.com/peterbn/tmux-neolazygit <clone-path>
 ```
 
 Add this line to your **tmux.conf**
@@ -49,4 +49,13 @@ Key used to open lazygit.
 
 ```bash
 set -g @open-lazygit 'G'
+```
+
+### `@open-lazygit-in-popup`
+
+**Default: off ('')**
+
+Control if lazygit should open in a popup.
+```bash
+set -g @open-lazygit-in-popup 'true'
 ```
